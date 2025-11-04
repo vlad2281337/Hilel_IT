@@ -1,0 +1,80 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+*.pyo
+*.pyd
+*.pdb
+*.log
+*.tmp
+*.bak
+*.swp
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===== Jupyter Notebooks =====
+.ipynb_checkpoints
+
+# ===== PyCharm =====
+.idea/
+*.iml
+
+# ===== VSCode (якщо іноді відкриваєш там) =====
+.vscode/
+
+# ===== macOS & Windows =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Virtual Environments & Caches =====
+.Python
+__pypackages__/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== Distribution / packaging =====
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+*.spec
+
+# ===== Test / coverage =====
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ===== Others =====
+# Logs and databases
+*.sqlite3
+*.db
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
