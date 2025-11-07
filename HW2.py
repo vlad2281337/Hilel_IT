@@ -47,10 +47,20 @@ while True:
         if 1000 <= abs(num4) <= 9999:
             break
         else:
-            print("Помилка: потрібно ввести 4-x значне число!")
+            print("Помилка: потрібно ввести саме 4-х значне число!")
     except ValueError:
         print("Помилка: введено не число!")
 
+
+_num = abs(num4)
+digit1 = _num // 1000
+digit2 = (_num // 100) % 10
+digit3 = (_num // 10) % 10
+digit4 = _num % 10
+
+# Виводимо результат
 print("Цифри числа:")
-for digit in str(abs(num4)):
-    print(digit)
+print(digit1)
+print(digit2)
+print(digit3)
+print(digit4)
