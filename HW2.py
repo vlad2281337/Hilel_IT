@@ -57,7 +57,7 @@ digit2 = (_num // 100) % 10
 digit3 = (_num // 10) % 10
 digit4 = _num % 10
 
-print("Цифри числа:")
+print("Цифри числа: ")
 print(digit1)
 print(digit2)
 print(digit3)
