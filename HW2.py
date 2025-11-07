@@ -51,14 +51,12 @@ while True:
     except ValueError:
         print("Помилка: введено не число!")
 
-
 _num = abs(num4)
 digit1 = _num // 1000
 digit2 = (_num // 100) % 10
 digit3 = (_num // 10) % 10
 digit4 = _num % 10
 
-# Виводимо результат
 print("Цифри числа:")
 print(digit1)
 print(digit2)
