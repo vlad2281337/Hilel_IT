@@ -11,6 +11,7 @@ def move_zeros(lst):
     result.extend([0] * zero_count)
     return result
 
+
 print(move_zeros([0, 1, 0, 12, 3]))
 print(move_zeros([0]))
 print(move_zeros([1, 0, 13, 0, 0, 0, 5]))
