@@ -1,7 +1,6 @@
 import string
 
 def letters_range(text: str) -> str:
-    # Прибираємо всі пробіли
     text = text.replace(" ", "")
 
     if text.count('-') != 1:
